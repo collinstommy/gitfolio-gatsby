@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "font-awesome": "^4.7.0",
     "gatsby": "^2.5.7",
     "gatsby-image": "^2.1.0",
     "gatsby-plugin-manifest": "^2.1.1",
@@ -19,6 +20,8 @@
     "react-helmet": "^5.2.1"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.8.2",
+    "axios": "^0.18.0",
     "prettier": "^1.17.1"
   },
   "keywords": [
