@@ -4,16 +4,8 @@
 
 @import url("https://fonts.googleapis.com/css?family=Questrial");
 
-:root {
-  --bg-color: #fff;
-  --text-color: rgb(10, 10, 10);
-  --blog-gray-color: rgb(80, 80, 80);
-  --background-image: linear-gradient(90deg, rgba(10, 10, 10, 0.4), rgb(10, 10, 10, 0.4)), url(https://images.unsplash.com/photo-1553748024-d1b27fb3f960?w=1450);
-  --background-background: #fff;
-}
-
-* {
-  box-sizing: content-box;
+body {
+  margin: 0;
 }
 
 .main {
@@ -204,7 +196,7 @@
 }
 
 #userbio {
-  font-size: 26px;
+  font-size: 24px;
   font-family: 'Questrial', sans-serif;
   width: 100%;
 }

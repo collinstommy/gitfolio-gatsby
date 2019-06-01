@@ -3,7 +3,9 @@ module.exports = {
     title: `Gitfoio for gatsby`,
     description: `Showcase your git repos.`,
     author: `@tcollins`,
-    githubUser: 'collinstommy',
+    githubUser: 'imfunniee',
+    backgroundImage: 'https://images.unsplash.com/photo-1553748024-d1b27fb3f960?w=1450',
+    theme: 'light',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

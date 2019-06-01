@@ -14,10 +14,12 @@
     "gatsby-plugin-sharp": "^2.0.37",
     "gatsby-source-filesystem": "^2.0.37",
     "gatsby-transformer-sharp": "^2.1.19",
+    "github-emoji": "^1.1.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "styled-components": "^4.2.1"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.8.2",
