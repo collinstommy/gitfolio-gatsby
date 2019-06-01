@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../node_modules/@fortawesome/fontawesome-free/css/all.css';
+import SEO from '../components/seo';
 
 const renderCard = (repo) => {
   return (<a key={repo.name} href={repo.html_url} target="_blank">
@@ -24,23 +25,26 @@ const renderCard = (repo) => {
 export default ({ pageContext: { data } }) => {
   const { repos, user } = data;
   return (
-    <section className="main">
-      <div id="profile">
-        <div id="profile_img" style={{ background: `url(${user.avatar_url})` }}></div>
-        <div id="username"><span style={{ display: 'block' }}>{user.name}</span>{user.login}</div>
-        <div id="userbio" style={{ display: 'block' }}>{user.bio}</div>
-        <div id="about">
-          <span style={{ display: 'block' }}><i className="fas fa-link"></i> &nbsp; {user.html_url}</span>
-        </div>
-      </div>
-      <div id="display">
-        <div id="work">
-          <h1>Work.</h1>
-          <div className="projects" id="work_section">
-            {repos.map(repo => renderCard(repo))}
+    <React.Fragment>
+      <SEO title="Porfolio" />
+      <section className="main">
+        <div id="profile">
+          <div id="profile_img" style={{ background: `url(${user.avatar_url})` }}></div>
+          <div id="username"><span style={{ display: 'block' }}>{user.name}</span>{user.login}</div>
+          <div id="userbio" style={{ display: 'block' }}>{user.bio}</div>
+          <div id="about">
+            <span style={{ display: 'block' }}><i className="fas fa-link"></i> &nbsp; {user.html_url}</span>
           </div>
         </div>
-      </div>
-    </section>
+        <div id="display">
+          <div id="work">
+            <h1>Work.</h1>
+            <div className="projects" id="work_section">
+              {repos.map(repo => renderCard(repo))}
+            </div>
+          </div>
+        </div>
+      </section>
+    </React.Fragment>
   )
 }
