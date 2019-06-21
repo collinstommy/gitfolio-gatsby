@@ -3,12 +3,12 @@ module.exports = {
     title: `Gitfolio for gatsby`,
     description: `Showcase your git repos.`,
     author: `@tcollins`,
-  },
-  settings: {
-    githubUser: 'imfunniee',
+
+    githubUser: 'facebook',
     backgroundImage: 'https://images.unsplash.com/photo-1553748024-d1b27fb3f960?w=1450',
     theme: 'dark',
   },
+  pathPrefix: 'gitfolio-gatsby',
   plugins: [
     `gatsby-plugin-react-helmet`,
     {

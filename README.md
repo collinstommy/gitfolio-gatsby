@@ -1,13 +1,10 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
 <h1 align="center">
   Gitfolio Gatsby
 </h1>
 
-A gatsby version of  https://github.com/imfunniee/gitfolio/ 
+A gatsby version of  https://github.com/imfunniee/gitfolio/. Thanks to @imfunniee for all the styles and markup.
+
+Live Demo: https://collinstommy.github.io/gitfolio-gatsby/
 
 ## Quick start
 
@@ -46,11 +43,28 @@ A gatsby version of  https://github.com/imfunniee/gitfolio/
 5.  **Open the source code and start editing!**
 
     Your site is now running at `http://localhost:8000`!
-
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
-
     Open the `my-portfolio` directory in your code editor of choice and edit `listings.js`. Save your changes and the browser will update in real time!
 
+6.  **Deploy**
+
+    ##### Github Pages
+
+    1. In `gatsby-config.js` ensure pathPrefix matches your repo.
+    
+    ```
+    pathPrefix: "/reponame",
+    ```
+
+    2. Run deploy script
+    ```
+    npm i
+    npm run deploy
+    ```
+    https://www.gatsbyjs.org/docs/how-gatsby-works-with-github-pages/
+
+    ##### Netlify
+
+    https://www.netlify.com/blog/2016/02/24/a-step-by-step-guide-gatsby-on-netlify/#connecting-to-netlify
 
 ## 🎓 Learning Gatsby
 
