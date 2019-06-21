@@ -72,6 +72,10 @@ Live Demo: https://collinstommy.github.io/gitfolio-gatsby/
 
 Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). 
 
-## 💫 Deploy
+## 💫 Deploy starter to Netlify
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/collinstommy/gitfolio-gatsby)
+
+
+## License
+![GitHub](https://img.shields.io/github/license/imfunniee/gitfolio.svg?style=popout-square)
