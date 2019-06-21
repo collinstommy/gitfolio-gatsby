@@ -1,11 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: `Gitfoio for gatsby`,
+    title: `Gitfolio for gatsby`,
     description: `Showcase your git repos.`,
     author: `@tcollins`,
+  },
+  settings: {
     githubUser: 'imfunniee',
     backgroundImage: 'https://images.unsplash.com/photo-1553748024-d1b27fb3f960?w=1450',
-    theme: 'light',
+    theme: 'dark',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

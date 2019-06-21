@@ -1,30 +1,12 @@
+/* Based on https://github.com/imfunniee/gitfolio/ */
+
 import React from 'react';
 import '../../node_modules/@fortawesome/fontawesome-free/css/all.css';
 import SEO from '../components/seo';
 import AboutItem from '../components/about-item';
 import Theme from '../components/theme';
 import { graphql } from 'gatsby';
-
-
-const renderCard = (repo) => {
-  return (<a key={repo.name} href={repo.html_url} target="_blank">
-    <section>
-      <div className="section_title">{repo.name}</div>
-      <div className="about_section">
-        <span>{repo.description}</span>
-      </div>
-      <div className="bottom_section">
-        {repo.language &&
-          <span style={{ display: 'inline-block' }}>
-            <i className="fas fa-code"></i>
-            &nbsp; {repo.language}
-          </span>}
-        <span><i className="fas fa-star"></i>&nbsp; {repo.stargazers_count}</span>
-        <span><i className="fas fa-code-branch"></i>&nbsp; {repo.forks_count}</span>
-      </div>
-    </section>
-  </a>);
-};
+import Card from '../components/card';
 
 export default ({ pageContext, data }) => {
   const { repos, user } = pageContext.data;
@@ -53,7 +35,7 @@ export default ({ pageContext, data }) => {
           <div id="work">
             <h1>Work.</h1>
             <div className="projects" id="work_section">
-              {repos.map(repo => renderCard(repo))}
+              {repos.map(repo => <Card {...repo} />)}
             </div>
           </div>
         </div>
