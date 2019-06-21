@@ -49,21 +49,23 @@ Live Demo: https://collinstommy.github.io/gitfolio-gatsby/
 
     ##### Github Pages
 
-    1. In `gatsby-config.js` ensure pathPrefix matches your repo.
-    
+    In `gatsby-config.js` ensure pathPrefix matches your repo.
     ```
     pathPrefix: "/reponame",
     ```
 
-    2. Run deploy script
+    Run deploy script
     ```
     npm i
     npm run deploy
     ```
+
+    Your site will be live at:
+    `https://<your-user-name>.github.io/<repoName>`
+    <br />
     https://www.gatsbyjs.org/docs/how-gatsby-works-with-github-pages/
 
     ##### Netlify
-
     https://www.netlify.com/blog/2016/02/24/a-step-by-step-guide-gatsby-on-netlify/#connecting-to-netlify
 
 ## 🎓 Learning Gatsby
