@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "gitfolio-gatsby",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A gatsby version of gitfolio.",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Tom Collins (tcollins.dev)",
   "dependencies": {
     "font-awesome": "^4.7.0",
     "gatsby": "^2.5.7",
@@ -43,9 +43,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/collinstommy/gitfolio-gatsby"
   }
 }
