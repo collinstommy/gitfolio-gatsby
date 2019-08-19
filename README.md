@@ -25,7 +25,7 @@ Live Demo: https://collinstommy.github.io/gitfolio-gatsby/
 
     ```js
       siteMetadata: {
-        githubUser: '',
+        githubUser: '<your-github-username>',
         backgroundImage: '',
         theme: 'dark', // or 'light'
       },
@@ -51,7 +51,7 @@ Live Demo: https://collinstommy.github.io/gitfolio-gatsby/
 
     In `gatsby-config.js` ensure pathPrefix matches your repo.
     ```
-    pathPrefix: "/reponame",
+    pathPrefix: "<portfolio-reponame>",
     ```
 
     Run deploy script
