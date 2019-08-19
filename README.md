@@ -24,7 +24,7 @@ Live Demo: https://collinstommy.github.io/gitfolio-gatsby/
 3. **Add your details to `gatsby-config`**
 
     ```js
-      settings: {
+      siteMetadata: {
         githubUser: '',
         backgroundImage: '',
         theme: 'dark', // or 'light'
