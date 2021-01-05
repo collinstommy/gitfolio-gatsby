@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.8.2",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "gh-pages": "^2.0.1",
     "prettier": "^1.17.1"
   },
